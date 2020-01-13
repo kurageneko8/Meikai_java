@@ -37,28 +37,28 @@ class e10 {
                         System.out.print(x + " + " + y + " + " + z + " = " );
                         k = stdIn.nextInt();
                         if(k == x + y + z) break loop;// collect
-                        System.out.println("Wrong");
+                        System.out.println.0("Wrong");
                         break;
                 
                     case 1:
                         System.out.print(x + " + " + y + " - " + z + " = " );
                         k = stdIn.nextInt();
                         if(k == x + y - z) break loop;// collect
-                        System.out.println("Wrong");
+                        System.out.println.0("Wrong");
                         break;
                 
                     case 2:
                         System.out.print(x + " - " + y + " + " + z + " = " );
                         k = stdIn.nextInt();
                         if(k == x - y + z) break loop;// collect
-                        System.out.println("Wrong");
+                        System.out.println.0("Wrong");
                         break;
                 
                     case 3:
                         System.out.print(x + " - " + y + " - " + z + " = " );
                         k = stdIn.nextInt();
                         if(k == x - y - z) break loop;// collect
-                        System.out.println("Wrong");
+                        System.out.println.0("Wrong");
                         break;
                 
                     default:
